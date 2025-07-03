@@ -12,7 +12,7 @@
   <section class="bg-green-100 py-20 px-4 text-center">
     <h1 class="text-4xl md:text-5xl font-bold text-green-800">Eco-Drop</h1>
     <p class="mt-4 text-lg md:text-xl">Inovasi Isi Ulang Otomatis untuk Masa Depan Berkelanjutan</p>
-    <a href="#daftar" class="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700">Gabung Sekarang</a>
+    <a href="#formulir" class="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700">Gabung Sekarang</a>
   </section>
 
   <!-- Tentang Eco-Drop -->
@@ -50,30 +50,32 @@
   </section>
 
   <!-- Call to Action -->
-  <section id="daftar" class="bg-green-600 text-white text-center py-20 px-4">
+  <section class="bg-green-600 text-white text-center py-20 px-4">
     <h2 class="text-3xl font-bold mb-4">Siap Bergabung dengan Gerakan Ramah Lingkungan?</h2>
     <p class="mb-6 text-lg">Isi data Anda dan jadi bagian dari solusi masa depan.</p>
-    <a href="#" class="bg-white text-green-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Daftar Sekarang</a>
+    <a href="#formulir" class="bg-white text-green-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Daftar Sekarang</a>
   </section>
-<section class="max-w-xl mx-auto my-12 px-4">
- <form name="daftar-ecodrop" method="POST" data-netlify="true" action="/terima-kasih.html" class="bg-white shadow p-6 rounded space-y-4">
-    <h2 class="text-2xl font-bold text-green-700">Formulir Pendaftaran</h2>
 
-    <label class="block">
-      <span class="text-gray-700">Nama</span>
-      <input type="text" name="nama" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
-    </label>
+  <!-- Formulir Pendaftaran -->
+  <section id="formulir" class="max-w-xl mx-auto my-12 px-4 py-16">
+    <form name="daftar-ecodrop" method="POST" data-netlify="true" action="/terima-kasih.html" class="bg-white shadow p-6 rounded space-y-4">
+      <h2 class="text-2xl font-bold text-green-700">Formulir Pendaftaran</h2>
 
-    <label class="block">
-      <span class="text-gray-700">Email</span>
-      <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
-    </label>
+      <label class="block">
+        <span class="text-gray-700">Nama</span>
+        <input type="text" name="nama" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
+      </label>
 
-    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-      Kirim
-    </button>
-  </form>
-</section>
+      <label class="block">
+        <span class="text-gray-700">Email</span>
+        <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
+      </label>
+
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+        Kirim
+      </button>
+    </form>
+  </section>
 
   <!-- Footer -->
   <footer class="bg-gray-800 text-white text-center py-6">
