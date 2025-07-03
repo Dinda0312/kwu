@@ -59,22 +59,26 @@
   <!-- Formulir Pendaftaran -->
   <section id="formulir" class="max-w-xl mx-auto my-12 px-4 py-16">
     <form name="daftar-ecodrop" method="POST" data-netlify="true" action="/terima-kasih.html" class="bg-white shadow p-6 rounded space-y-4">
-      <h2 class="text-2xl font-bold text-green-700">Formulir Pendaftaran</h2>
+  <!-- WAJIB: tambahkan input ini! -->
+  <input type="hidden" name="form-name" value="daftar-ecodrop" />
 
-      <label class="block">
-        <span class="text-gray-700">Nama</span>
-        <input type="text" name="nama" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
-      </label>
+  <h2 class="text-2xl font-bold text-green-700">Formulir Pendaftaran</h2>
 
-      <label class="block">
-        <span class="text-gray-700">Email</span>
-        <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
-      </label>
+  <label class="block">
+    <span class="text-gray-700">Nama</span>
+    <input type="text" name="nama" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
+  </label>
 
-      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-        Kirim
-      </button>
-    </form>
+  <label class="block">
+    <span class="text-gray-700">Email</span>
+    <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded p-2" />
+  </label>
+
+  <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+    Kirim
+  </button>
+</form>
+
   </section>
 
   <!-- Footer -->
